@@ -13,6 +13,7 @@ var DonationBox = React.createClass({
       type: 'POST',
       data: donation,
       async: 'false',
+      origin: 'https://cdn.rawgit.com',
       success: function (data) {
         //this.setState({data: data});
         alert('success');
